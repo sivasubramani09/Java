@@ -1,7 +1,11 @@
 
 import java.util.Scanner;
+/*
+* An n-digit number that is the sum of the nth powers of its digits
+* is called an n-narcissistic number.
+*/
 
-public class CandidateCode {
+public class NarsissiticNumber {
 	public static void main(String args[]) {
 	int temp;
 	int digit;
