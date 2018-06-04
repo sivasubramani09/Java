@@ -1,4 +1,4 @@
-package techgig.ThirtyDayChallenge;
+
 import java.util.Scanner;
 
 public class CandidateCode {
