@@ -11,14 +11,14 @@ public class CheckCase {
 		Scanner sc = new Scanner(System.in);
 		value = sc.nextLine();
 		len = value.length();
-		ch = value.toCharArray();
+		ch = value.toCharArray();   //Converts the String "value" to a character array.
 		sc.close();
 		for(int i = 0; i<len; i++) {
 			char output = ch[i];
-			if(Character.isUpperCase(output)) {
+			if(Character.isUpperCase(output)) { // Returns true if the character is in UpperCase
 				up++;
 			}
-		    if(Character.isLowerCase(output)) {
+		    if(Character.isLowerCase(output)) { //Returns true if thr character is LowerCase
 				low++;
 			}
 		}
