@@ -1,1 +1,1 @@
-This project contains the completed codes of TechGig 30 day Challenge.
+This project contains the completed solutions of TechGig 30 day Challenge, etc,.
