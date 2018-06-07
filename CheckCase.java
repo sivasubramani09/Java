@@ -1,4 +1,6 @@
-
+/*
+*This program prints the no. of Uppercase and Lowercase characters in the given line of String.
+*/
 import java.util.Scanner;
 
 public class CheckCase {
