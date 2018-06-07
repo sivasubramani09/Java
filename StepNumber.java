@@ -9,7 +9,7 @@
  * if the difference between each consecutive number is one, then the number is called a Step Number.
  * 
  */
-package techgig.ThirtyDayChallenge;
+
 import java.util.Scanner;
 public class StepNumber {
 	public static void main(String args[]) {
