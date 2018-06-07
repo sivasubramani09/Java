@@ -1,4 +1,6 @@
-
+/*
+*This program is to find the Transpose of the given matrix.
+*/
 import java.util.Scanner;
 public class MatrixTranspose{
 	public static void main(String args[]) {
