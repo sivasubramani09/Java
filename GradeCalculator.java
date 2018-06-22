@@ -1,9 +1,10 @@
-package checkingTemporary;
-
 import java.util.Scanner;
 /*
- * @Sivasubramani_D
- * */
+ * Author: @Sivasubramani_D
+ *I created this to find my 6th semester SGPA and CGPA. But this code can be used for any semester by changing previousCredits.
+ *This source code is intended to calculate SGPA and CGPA if you don't have arrears.
+ *Grading system is for KSRCE(Autonomous) (Regulation 2012)
+ */
 public class GradeCalculator {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner (System.in);
@@ -58,13 +59,13 @@ public class GradeCalculator {
 		char ch = ' ';
 		double cgpaSum = 0;
 		double cgpa = 0;
-		int previousCredits = 136; //Credits upto 5th Semester
+		int previousCredits = 136; //Credits upto 5th Semester "for my department"
 		System.out.println("Do you want to calculate your CGPA: (Y/N) ");
 		ch=sc.next().charAt(0);
 		if(ch==('y'|'Y')) {
 			System.out.println("Enter your 5th semester CGPA: ");
-			float lastCGPA = sc.nextFloat();
-			cgpaSum = (lastCGPA*previousCredits)+(sgpa*creditSum);
+			float previousCGPA = sc.nextFloat();
+			cgpaSum = (previousCGPA*previousCredits)+(sgpa*creditSum);
 			cgpa = cgpaSum/(previousCredits+creditSum);
 			System.out.println("Your SGPA is\t"+sgpa);
 			System.out.println("Your CGPA is\t"+cgpa);
