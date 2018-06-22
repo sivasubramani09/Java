@@ -2,7 +2,7 @@ import java.util.Scanner;
 /*
  * Author: @Sivasubramani_D
  *I created this to find my 6th semester SGPA and CGPA. But this code can be used for any semester by changing previousCredits.
- *This source code is intended to calculate SGPA and CGPA, assumin you don't have any arrears.
+ *This source code is intended to calculate SGPA and CGPA, assuming you don't have any arrears.
  *Grading system is for KSRCE(Autonomous) (Regulation 2012)
  */
 public class GradeCalculator {
