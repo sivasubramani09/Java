@@ -1,5 +1,3 @@
-package dailyChallenge;
-
 import java.util.Scanner;
 
 /*
