@@ -1,4 +1,3 @@
-package dailyChallenge;
 /*	T String Pattern
 	
 	Given two strings S1 and S2, the program must print the pattern as shown in the Example Input/Output section.
