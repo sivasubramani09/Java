@@ -2,7 +2,11 @@ import java.math.BigInteger;
 import java.util.Scanner;
 /*	Form Greater Number by Swapping
 	
-	An integer N and an array of M integers (representing the positions of the digits in N) are passed as the input. The program must swap the digits of N at the given positions with their adjacent digits such that the resulting number formed is greater than the original number. A digit can be swapped with the adjacent digit to its left or the adjacent digit to its right whichever leads to a greater number. If no greater number can be formed by swapping the digit at given position then the digit must not be swapped.
+	An integer N and an array of M integers (representing the positions of the digits in N) are passed as the input.
+	The program must swap the digits of N at the given positions with their adjacent digits such that the resulting 
+	number formed is greater than the original number. A digit can be swapped with the adjacent digit to its left or
+	the adjacent digit to its right whichever leads to a greater number. If no greater number can be formed by swapping
+	the digit at given position then the digit must not be swapped.
 	
 	Note: Digits must be swapped in the order of the positions given.
 	
