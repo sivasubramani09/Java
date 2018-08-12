@@ -1,5 +1,3 @@
-package dailyChallenge;
-
 /*
  * The input is number of rows and columns;
  * Ex: 5 5
