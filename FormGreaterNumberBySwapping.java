@@ -50,7 +50,7 @@ import java.util.Scanner;
 	Output:
 	920378492034
 */
-public class FormGreaterNumberBySwapping200718 {
+public class FormGreaterNumberBySwapping {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
