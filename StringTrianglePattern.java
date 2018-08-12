@@ -1,4 +1,3 @@
-package dailyChallenge;
 import java.util.Scanner;
 /*	String Triangle Pattern
 	
