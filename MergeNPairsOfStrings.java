@@ -1,4 +1,3 @@
-package dailyChallenge;
 /*
  	Merge N Pairs of String
 
