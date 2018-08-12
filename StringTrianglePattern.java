@@ -48,7 +48,7 @@ import java.util.Scanner;
 	So, "er" and "ng" is printed. Then, for the third word "**" is printed.
 
 */
-public class StringTrianglePattern220718 {
+public class StringTrianglePattern {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the line: ");
