@@ -37,7 +37,7 @@
 	wteilncome
  */
 
-public class MergeNPairsOfStrings140718 {
+public class MergeNPairsOfStrings {
 	public static void main(String[] args) {
 		String srr[]  = {"good bye","take care","cool buddy","think well","welcome tin"};
 		int n = srr.length;
