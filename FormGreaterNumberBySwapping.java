@@ -1,5 +1,3 @@
-package dailyChallenge;
-
 import java.math.BigInteger;
 import java.util.Scanner;
 /*	Form Greater Number by Swapping
