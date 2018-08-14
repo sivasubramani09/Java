@@ -1,6 +1,6 @@
 /*
  * The input is number of rows and columns;
- * Ex: 5 5
+ * Ex: 6 6
  * The output should pattern should be like this.
  * 1 12 13 24 25 36 
  * 2 11 14 23 26 35 
