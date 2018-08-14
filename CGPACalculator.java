@@ -1,8 +1,8 @@
 
 
 import java.util.Scanner;
+
 /*
- * This code will be suitable only for EEE Students (Regulation 2012)
  * You can calculate yours by changing the previousCredits and creditSum
  * 
  * For calculating 6th semester CGPA.
