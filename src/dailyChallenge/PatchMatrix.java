@@ -1,3 +1,5 @@
+package dailyChallenge;
+
 import java.util.Scanner;
 public class PatchMatrix {
 	public static void main(String args[]) {

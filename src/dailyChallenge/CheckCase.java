@@ -1,3 +1,4 @@
+package dailyChallenge;
 /*
 *This program prints the no. of Uppercase and Lowercase characters in the given line of String.
 */

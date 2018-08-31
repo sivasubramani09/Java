@@ -1,3 +1,5 @@
+package dailyChallenge;
+
 /*
  * The following program prints "Yes" if the given number is Step Number
  * and  "No" if the given number is not a Step Number.
@@ -9,7 +11,6 @@
  * if the difference between each consecutive number is one, then the number is called a Step Number.
  * 
  */
-
 import java.util.Scanner;
 public class StepNumber {
 	public static void main(String args[]) {
