@@ -1,2 +1,2 @@
 # MyFirstRepository
-This repository contains snippets of code (daily challenges) from various sources
+This repository contains snippets of code (daily challenges)
