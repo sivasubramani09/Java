@@ -1,8 +1,10 @@
 # Compiled class file
 *.class
+
 #other folders
 src/dailyChallenge/temp/
 .settings/
+bin/
 
 # Log file
 *.log
