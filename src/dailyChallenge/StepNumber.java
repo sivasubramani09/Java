@@ -18,6 +18,7 @@ public class StepNumber {
 		System.out.println("Enter a number: ");
 		int step = sc.nextInt();
 		convertInt2Array(step);
+		sc.close();
 		}
 	
 	public static void convertInt2Array(int num) {
@@ -54,7 +55,6 @@ public class StepNumber {
 		else {
 			System.out.println("No"); // The Given number is not a Step Number
 		}
-
 	}
 
 }
