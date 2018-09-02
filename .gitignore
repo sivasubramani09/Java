@@ -5,6 +5,7 @@
 src/dailyChallenge/temp/
 .settings/
 bin/
+.vscode/
 
 # Log file
 *.log
