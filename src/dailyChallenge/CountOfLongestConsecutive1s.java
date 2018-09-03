@@ -42,17 +42,13 @@ public class CountOfLongestConsecutive1s {
 		String binVal = Integer.toBinaryString(sc.nextInt());
 		int count =0;
 		int maxCount=0;
-		for(int i=0;i<binVal.length();i++) {
-			for(int j=i;j<binVal.length()-1;j++) {
-				i=j;
-				if(binVal.charAt(j)== '1' && binVal.charAt(j+1)=='1') {
-					count++;
-				}else {
-					break;
-				}
+		for(int i=0;i<binVal.length()-1;i++) {
+			if(binVal.charAt(i)== '1' && binVal.charAt(i+1)=='1') {
+				count++;
+				maxCount = count > maxCount ? count : maxCount;
+			}else {
+				count =0;
 			}
-			maxCount = count>maxCount ? count : maxCount;
-			count =0;
 		}
 		System.out.println(maxCount>0 ? maxCount+1 : 0);
 		sc.close();
