@@ -39,6 +39,7 @@ public class NthTermInMixedGeometricSeries {
 		int r2 = 3;	// Common Ratio of GP 2
 		int n = sc.nextInt();
 		System.out.println((n%2!=0) ? NthGP(start,r1,(n/2)+1) : NthGP(start, r2, n/2));
+		sc.close();
 	}
 	public static String NthGP(int a,int r,int N)
 	{ 
