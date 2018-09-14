@@ -1,3 +1,5 @@
+package dailyChallenge;
+
 /*
     Pattern - Star Pyramid
 
