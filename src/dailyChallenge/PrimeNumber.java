@@ -1,23 +1,19 @@
 package dailyChallenge;
 import java.util.Scanner;
-
+// To find whether the given number is prime or not
 public class PrimeNumber {
 	public static void main(String[] args) {
-		System.out.println("Enter the number:\t");
+		System.out.println("Enter the number:");
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
-		int count = 0;
-		for(int i=1; i<=num; i++) {
+		boolean isPrime=true;
+		for(int i=2; i<num; i++) {
 			if(num % i == 0) {
-				count++;
+				isPrime=false;
+				break;
 			}
 		}
-		if(count == 2) {
-			System.out.println("The Given Number is a prime number.");
-		}
-		else {
-			System.out.println("The Given Number is not a prime number");
-		}
+		System.out.println( isPrime ? "The Given Number is a prime number." : "The Given Number is not a prime number");
 		sc.close();
 	}
 
