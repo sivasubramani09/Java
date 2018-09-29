@@ -32,21 +32,17 @@ import java.util.Scanner;
 public class PatternStarPyramid {
 
     public static void main(String[] args) {
-        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number of rows:");
         int n=sc.nextInt();
         String space="";
-        String star="";
+        String star="*";
         int spaceCount=2*(n-1);
         for(int i=0;i<n;i++){
             space=new String(new char[spaceCount]).replace('\0',' ');
-            spaceCount -=2;
-            if(i==0){
-                star+= "*";
-            }else{
-                star+=" * *";
-            }
             System.out.print(space+star+"\n");
+            star+=" * *";
+            spaceCount -=2;
         }
         sc.close();
     }
