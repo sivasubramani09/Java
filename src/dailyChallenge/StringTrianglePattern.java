@@ -62,7 +62,7 @@ public class StringTrianglePattern {
 		String star = new String(new char[n]).replace("\0", "*");
 		for(int i=0;i<= lineArr.length;i++) {
 			for(int j=0;j<i;j++) {
-				print = lineArr.length > k ? lineArr[k].substring(lineArr[k].length()-n) : star;
+				print = k < lineArr.length ? lineArr[k].substring(lineArr[k].length()-n) : star;
 				System.out.print(print+" ");
 				if(k  == lineArr.length - 1)
 					isEnd = true;
