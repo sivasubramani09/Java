@@ -2,7 +2,7 @@ package dailyChallenge;
 
 /*
  * The input is number of rows and columns;
- * Ex: 5 5
+ * Ex: 6 6
  * The output should pattern should be like this.
  * 1 12 13 24 25 36 
  * 2 11 14 23 26 35 
@@ -13,8 +13,8 @@ package dailyChallenge;
  * */
 public class VerticalZigZag {
 	public static void main(String[] args) {
-		int x=10; // No. of Rows
-		int y=10; // No. of Columns
+		int x= 6; // No. of Rows
+		int y= 6; // No. of Columns
 		int diff1 = x*2 -1;
 		int diff2 = 1;
 		for(int i=1;i<=x;i++) {
